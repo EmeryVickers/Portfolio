@@ -9,13 +9,12 @@ const Sidebar = () => {
         </Icon>
         <SidebarWrapper>
             <SidebarMenu>
-                <SidebarLink to="about">About</SidebarLink>
-                <SidebarLink to="discover">Discover</SidebarLink>
-                <SidebarLink to="services">Services</SidebarLink>
-                <SidebarLink to="signup">Sign Up</SidebarLink>
+                <SidebarLink to="about">About Me</SidebarLink>
+                <SidebarLink to="projects">Projects</SidebarLink>
+                <SidebarLink to="resume">Resume</SidebarLink>
             </SidebarMenu>
             <SideBtnWrap>
-                <SidebarRoute to="/signin">Sign In</SidebarRoute>
+                <SidebarRoute to="/">GitHub</SidebarRoute>
             </SideBtnWrap>
         </SidebarWrapper>
     </SidebarContainer>

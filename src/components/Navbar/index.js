@@ -13,20 +13,17 @@ const Navbar = () => {
                 </MobileIcon>
                 <NavMenu>
                   <NavItem>
-                    <NavLinks to="about">About</NavLinks>
+                    <NavLinks to="about">About Me</NavLinks>
                   </NavItem>
                   <NavItem>
-                    <NavLinks to="discover">Discover</NavLinks>
+                    <NavLinks to="projects">Projects</NavLinks>
                   </NavItem>
                   <NavItem>
-                    <NavLinks to="services">Services</NavLinks>
-                  </NavItem>
-                  <NavItem>
-                    <NavLinks to="signup">Sign Up</NavLinks>
+                    <NavLinks to="resume">Resume</NavLinks>
                   </NavItem>
                 </NavMenu>
                 <NavBtn>
-                  <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                  <NavBtnLink to="/">GitHub</NavBtnLink>
                 </NavBtn>
             </NavbarContainer>
         </Nav>
