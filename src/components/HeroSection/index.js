@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Picture from '../../images/onstage.png'
-import { Button } from '../ButtonElement';
+import { Button } from '../ButtonElements';
 import { HeroContainer, HeroBg, PictureBg, HeroContent, HeroH1, HeroP, HeroBtnWrapper, ArrowForward, ArrowDown } from './HeroElements'
 
 const HeroSection = () => {
